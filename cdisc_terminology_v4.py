@@ -245,8 +245,8 @@ outFile.close()
 #=========================================================================
 # prep email
 sender_email = 'Melanie_Logan@edwards.com'
-receiver_email = ['Melanie_Logan@edwards.com']
-#receiver_email = ['THV_Stats_Programming']
+#receiver_email = ['Melanie_Logan@edwards.com']
+receiver_email = ['THV_Stats_Programming@edwards.com']
 today = date.today()
 
 
@@ -260,8 +260,7 @@ msg.add_alternative("""\
 <html>
   <body>
   <h1 style="background-color:cornsilk;font-family:helvetica;color:midnightblue;font-size:20px">CDISC Controlled Terminology Download</h1>
-    <p>Dear all,<br><br>
-        *** TEST EMAIL***<br><br>
+    <p>Dear All,<br><br>
        A routine CDISC controlled terminology download has been completed.<br><br>
        <b>The following files have been downloaded:</b>
        <ul >
