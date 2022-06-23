@@ -1,5 +1,5 @@
 __name__        = 'cdisc_terminology.py'
-__location__    = r'C:\Users\Melanie_logan\OneDrive - Edwards Lifesciences\Documents\_my dir\projects\CDISC Terminology Downloads'
+__location__    = r'C:\Users\Melanie_logan\<path>\CDISC Terminology Downloads'
 __purpose__     = '''Download and update CDISC terminology files from: https://evs.nci.nih.gov/ftp1/CDISC/'''
 __developer__   = 'Melanie Logan'
 __version__     = '1.0'
@@ -18,7 +18,7 @@ DownldDt = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 # config logger
 logging.basicConfig(level=logging.INFO, 
-                    filename= rf'N:\\admin\\(SPT) Statistical Programming Team\\Standards\\CDISC\\CDISC Controlled Terminology\\py_log\\{logfile}', 
+                    filename= rf'<path>\\py_log\\{logfile}', 
                     #filemode='w', 
                     format='%(asctime)s [LINE:%(lineno)d] %(levelname)-8s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
@@ -244,9 +244,9 @@ outFile.close()
 # {lEmail}
 #=========================================================================
 # prep email
-sender_email = 'Melanie_Logan@edwards.com'
-#receiver_email = ['Melanie_Logan@edwards.com']
-receiver_email = ['THV_Stats_Programming@edwards.com']
+sender_email = 'Melanie_Logan@email.com'
+#receiver_email = ['Melanie_Logan@email.com']
+receiver_email = ['teamg@email.com']
 today = date.today()
 
 
@@ -281,7 +281,7 @@ msg.add_alternative("""\
   
 # send email
 try:
-    smtpObj = smtplib.SMTP('smtpirv.edwards.lcl') #update
+    smtpObj = smtplib.SMTP('smtpirv.company.lcl') #update
     smtpObj.send_message(msg)
     logging.info('Email sent successfully.')
     #disconnect from SMTP
