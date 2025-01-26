@@ -5,7 +5,7 @@
 
 ## Overview
 
-This project is designed for professionals in the biotech and clinical research fields, specifically those involved in implementing CDISC (Clinical Data Interchange Standards Consortium) standards and managing CDISC controlled terminology. If you are responsible for ensuring your datasets adhere to CDISC standards, this tool will help you automate the download, maintenance, and archiving of CDISC terminology files.
+This project is designed for professionals in the biotech and clinical research fields, specifically those involved in implementing CDISC (Clinical Data Interchange Standards Consortium) data standards and managing CDISC controlled terminology. If you are responsible for ensuring your datasets adhere to CDISC standards, this tool will help you automate the download, maintenance, and archiving of CDISC terminology files.
 
 CDISC controlled terminology refers to the standardized list of terms used across clinical trial data, ensuring consistency and clarity in the reporting of clinical data. These terms include codes for medical conditions, interventions, and other clinical trial-related information. The terminology is updated regularly by CDISC to reflect new medical insights, regulatory requirements, and industry best practices.
 
