@@ -5,7 +5,9 @@
 
 ## Overview
 
-Are you tired of manually downloading, distributing, and maintaining CDISC Terminology files? This project automates the process using Python and PowerShell, allowing you to skip the manual effort of opening browsers, downloading, renaming, moving, or converting files. 
+This project is designed for professionals in the biotech and clinical research fields, specifically those involved in implementing CDISC (Clinical Data Interchange Standards Consortium) standards and managing CDISC controlled terminology. If you are responsible for ensuring your datasets adhere to CDISC standards, this tool will help you automate the download, maintenance, and archiving of CDISC terminology files.
+
+CDISC controlled terminology refers to the standardized list of terms used across clinical trial data, ensuring consistency and clarity in the reporting of clinical data. These terms include codes for medical conditions, interventions, and other clinical trial-related information. The terminology is updated regularly by CDISC to reflect new medical insights, regulatory requirements, and industry best practices.
 
 This solution is designed to:  
 - Download CDISC SDTM and ADaM terminology files.  
