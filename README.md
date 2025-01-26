@@ -55,62 +55,6 @@ Install missing libraries using `pip install <library-name>`.
 ```bash
 git clone https://github.com/mlogan914/cdisc-terminology-automation.git
 ```
-
-# Automating CDISC Terminology Downloads and Maintenance
-
-**Author**: Melanie Logan  
-**Version**: 1.0  
-
-## Overview
-
-Are you tired of manually downloading, distributing, and maintaining CDISC Terminology files? This project automates the process using Python and PowerShell, allowing you to skip the manual effort of opening browsers, downloading, renaming, moving, or converting files. 
-
-This solution is designed to:  
-- Download CDISC SDTM and ADaM terminology files.  
-- Archive old files and update them with the latest versions.  
-- Automate execution using Windows Task Scheduler for periodic maintenance.  
-
-By following this project, you can eliminate repetitive tasks and focus on more impactful work.
-
----
-
-## Features
-- **Automated Downloads**: Uses Python's Selenium package to access and download files directly from the [NCI EVS FTP Server](https://evs.nci.nih.gov/ftp1/CDISC/).
-- **File Archiving**: Automatically archives old terminology files to maintain version control.
-- **Conversion to Binary Format**: Converts `.xls` files to `.xlsb` using PowerShell for better efficiency and storage.
-- **Scheduled Execution**: Supports automation via Windows Task Scheduler for regular updates.
-- **Logging and Notifications**: Creates detailed logs of the process and sends email notifications.
-
----
-
-## Requirements
-### Software
-- Python 3.x
-- PowerShell (Windows)
-- Google Chrome
-- ChromeDriver compatible with your Chrome version
-
-### Python Libraries
-- `selenium`
-- `logging`
-- `os`
-- `shutil`
-- `itertools`
-- `time`
-- `pyxlsb`
-- `subprocess`
-- `smtplib`
-
-Install missing libraries using `pip install <library-name>`.
-
----
-
-## Setup Instructions
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/mlogan914/cdisc-terminology-automation.git
-```
 ### 2. Install Dependencies
 
 Ensure all required Python libraries are installed. Run:
